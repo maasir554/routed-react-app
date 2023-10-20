@@ -12,7 +12,7 @@ const FooterLink = ( {to, text} ) => {
 
 function Footer() {
   return (
-    <div className='bg-slate-100 p-5 text-slate-500 text-sm flex flex-row justify-center items-start gap-32 ' >      
+    <div className='w-full bg-slate-100 p-5 px-10 text-slate-500 text-sm flex flex-row sm:justify-center justify-between items-start xl:gap-32 lg:gap-20 md:gap-14 sm:gap-10 gap-8 flex-wrap ' >      
       <ul className='flex flex-col justify-center items-start gap-1'>
         <li className='font-semibold'>Routed App</li>
         <li> Made using React Router Dom</li>

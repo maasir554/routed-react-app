@@ -5,7 +5,7 @@ function Github() {
   return (
     
     <section className='content-main'>
-      <img src={ghData.avatar_url} alt="GH profile picture" className="w-96 h-96 rounded-full mb-10"/>
+      <img src={ghData.avatar_url} alt="GH profile picture" className="sm:w-96 sm:h-96 w-64 h-64 rounded-full mb-10"/>
       <p className="text-xl text-yellow-600 ">
         {ghData.login} has {ghData.followers} followers on GitHub.
       </p>

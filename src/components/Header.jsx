@@ -13,7 +13,7 @@ function Header() {
 
   return (
     
-    <nav className='flex flex-row items-center justify-center w-full bg-slate-200 gap-7 py-4'>
+    <nav className='flex flex-row items-center sm:justify-center w-full bg-slate-200 sm:gap-7 justify-around py-4'>
 
       <CustomNavLink to="/routed-react-app/" text="Home" />
 
