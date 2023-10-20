@@ -21,10 +21,10 @@ function Footer() {
 
       <ul className='flex flex-col justify-center items-start gap-1'>
         <li className='font-semibold flex flex-nowrap'>Navigate to </li>
-        <FooterLink to="" text="Home" />
-        <FooterLink to="/about" text="About" />
-        <FooterLink to="/contact" text="Contact" />
-        <FooterLink to="/github" text="GitHub" />
+        <FooterLink to="/routed-react-app" text="Home" />
+        <FooterLink to="/routed-react-app/about" text="About" />
+        <FooterLink to="/routed-react-app/contact" text="Contact" />
+        <FooterLink to="/routed-react-app/github" text="GitHub" />
       </ul>
       
       <ul className='flex flex-col justify-center items-start gap-1'>

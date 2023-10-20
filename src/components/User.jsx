@@ -29,7 +29,7 @@ const TakeUserId = () => {
       placeholder='Enter the user id here'
     />
     
-    <NavLink to={`/user/${uId}`} className={'text-xl text-slate-900 bg-slate-100 rounded-full p-3 hover:bg-slate-200 active:bg-slate-300'} >
+    <NavLink to={`/routed-react-app/user/${uId}`} className={'text-xl text-slate-900 bg-slate-100 rounded-full p-3 hover:bg-slate-200 active:bg-slate-300'} >
       Submit
     </NavLink>
   </div>
